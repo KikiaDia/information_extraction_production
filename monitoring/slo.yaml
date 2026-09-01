@@ -1,0 +1,8 @@
+availability: 0.995
+p95_latency_ms_max: 12000
+field_f1_min: 0.90
+required_field_recall_min: 0.95
+schema_validity_min: 0.99
+human_review_rate_warn: 0.15
+cost:
+  max_cost_per_document_usd: 0.05

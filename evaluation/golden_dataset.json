@@ -1,0 +1,21 @@
+[
+  {
+    "id": "ie-001",
+    "text": "Maintenance report. Equipment ID: TR-42. Site: Lyon. Oil leak detected. Action: inspect seals.",
+    "expected": {
+      "document_type": "maintenance_report",
+      "equipment_id": "TR-42",
+      "anomaly": "oil leak",
+      "action_required": "inspect seals"
+    }
+  },
+  {
+    "id": "ie-002",
+    "text": "Incident report. Asset ID CB-7. Site: Paris. Isolate equipment before intervention.",
+    "expected": {
+      "document_type": "incident_report",
+      "equipment_id": "CB-7",
+      "safety_constraint": "isolate equipment"
+    }
+  }
+]

@@ -1,0 +1,3 @@
+Extract only information explicitly supported by the document.
+Do not invent identifiers, dates, anomalies or safety constraints.
+Preserve uncertainty and route low-confidence/invalid extractions to human review.

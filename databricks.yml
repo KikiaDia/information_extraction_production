@@ -1,0 +1,30 @@
+bundle:
+  name: information-extraction-production
+
+variables:
+  source_volume:
+    default: /Volumes/main/genai/energy_documents
+  bronze_table:
+    default: main.genai.idp_bronze
+  silver_table:
+    default: main.genai.idp_silver
+  gold_table:
+    default: main.genai.idp_gold
+  eval_dataset_name:
+    default: main.genai.info_extraction_eval
+  extraction_schema_version:
+    default: 1.0.0
+
+resources:
+  experiments:
+    extraction_experiment:
+      name: /Shared/${bundle.target}/information-extraction
+
+targets:
+  dev:
+    default: true
+    mode: development
+  staging:
+    mode: production
+  prod:
+    mode: production

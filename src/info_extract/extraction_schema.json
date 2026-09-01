@@ -1,0 +1,62 @@
+{
+  "document_type": {
+    "type": "string",
+    "description": "Business document category"
+  },
+  "equipment_id": {
+    "type": [
+      "string",
+      "null"
+    ],
+    "description": "Asset/equipment identifier"
+  },
+  "site": {
+    "type": [
+      "string",
+      "null"
+    ]
+  },
+  "manufacturer": {
+    "type": [
+      "string",
+      "null"
+    ]
+  },
+  "model": {
+    "type": [
+      "string",
+      "null"
+    ]
+  },
+  "intervention_date": {
+    "type": [
+      "string",
+      "null"
+    ],
+    "description": "ISO date if known"
+  },
+  "anomaly": {
+    "type": [
+      "string",
+      "null"
+    ]
+  },
+  "action_required": {
+    "type": [
+      "string",
+      "null"
+    ]
+  },
+  "safety_constraint": {
+    "type": [
+      "string",
+      "null"
+    ]
+  },
+  "confidence": {
+    "type": [
+      "number",
+      "null"
+    ]
+  }
+}
